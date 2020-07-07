@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "tempo_exibicaos",
+  "info": {
+    "name": "Tempo de exibição dos comunicados"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "tempo": {
+      "type": "integer"
+    }
+  }
+}

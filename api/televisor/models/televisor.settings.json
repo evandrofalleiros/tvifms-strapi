@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "televisores",
+  "info": {
+    "name": "Televisor"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "idTelevisor": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "default": "ifmsdr"
+    },
+    "local": {
+      "type": "string"
+    },
+    "ativo": {
+      "type": "boolean",
+      "default": true,
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "setores",
+  "info": {
+    "name": "Setor"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "iniciais": {
+      "type": "string",
+      "private": true
+    }
+  }
+}

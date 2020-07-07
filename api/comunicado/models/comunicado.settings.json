@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comunicados",
+  "info": {
+    "name": "Comunicado"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "descricao": {
+      "type": "text",
+      "required": true,
+      "maxLength": 400
+    },
+    "midia": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "categoria": {
+      "model": "categoria"
+    },
+    "saibaMais": {
+      "type": "string"
+    },
+    "dataInicio": {
+      "type": "date",
+      "required": true
+    },
+    "dataFim": {
+      "type": "date",
+      "required": true
+    }
+  }
+}

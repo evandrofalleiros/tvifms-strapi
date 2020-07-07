@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tempo-exibicao",
+      "handler": "tempo-exibicao.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tempo-exibicao",
+      "handler": "tempo-exibicao.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tempo-exibicao",
+      "handler": "tempo-exibicao.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

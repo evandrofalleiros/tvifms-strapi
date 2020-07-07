@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/televisors",
+      "handler": "televisor.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/televisors/count",
+      "handler": "televisor.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/televisors/:id",
+      "handler": "televisor.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/televisors",
+      "handler": "televisor.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/televisors/:id",
+      "handler": "televisor.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/televisors/:id",
+      "handler": "televisor.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
