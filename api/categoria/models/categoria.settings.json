@@ -11,6 +11,11 @@
   "attributes": {
     "nome": {
       "type": "string"
+    },
+    "cor": {
+      "type": "string",
+      "required": false,
+      "default": "#32a852"
     }
   }
 }

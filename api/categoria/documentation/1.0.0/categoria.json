@@ -524,6 +524,10 @@
           },
           "nome": {
             "type": "string"
+          },
+          "cor": {
+            "type": "string",
+            "default": "#32a852"
           }
         }
       },
@@ -531,6 +535,10 @@
         "properties": {
           "nome": {
             "type": "string"
+          },
+          "cor": {
+            "type": "string",
+            "default": "#32a852"
           }
         }
       }

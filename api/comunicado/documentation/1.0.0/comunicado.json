@@ -604,6 +604,9 @@
               },
               "nome": {
                 "type": "string"
+              },
+              "cor": {
+                "type": "string"
               }
             }
           },
