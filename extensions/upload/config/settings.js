@@ -1,4 +1,3 @@
-
 if (!process.env.NODE_ENV || process.env.NODE_ENV === "development") {
     module.exports = {
       provider: "local",
@@ -13,4 +12,4 @@ if (!process.env.NODE_ENV || process.env.NODE_ENV === "development") {
         api_secret: process.env.CLOUDINARY_API_SECRET
       }
     };
-  }
+  } 
