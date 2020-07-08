@@ -103,6 +103,7 @@ node_modules
 testApp
 coverage
 
+
 ############################
 # Strapi
 ############################
@@ -111,3 +112,5 @@ coverage
 exports
 .cache
 build
+
+package-lock.json
